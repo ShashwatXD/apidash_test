@@ -3,7 +3,7 @@
   "name": "Cat Facts API",
   "requests": [
     {
-      "id": "random_cat_fact_a1b2c3d4",
+      "id": "random-cat-fact_a1b2c3d4",
       "name": "Random Cat Fact",
       "apiType": "rest",
       "method": "get",
