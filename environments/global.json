@@ -10,14 +10,14 @@
     },
     {
       "key": "user_agent",
-      "value": "APIDash/1.0 (Demo Workspace)",
+      "value": "APIDash/1",
       "type": "variable",
       "enabled": true
     },
     {
       "key": "timeout_ms",
-      "value": "",
-      "type": "secret",
+      "value": "abcd",
+      "type": "variable",
       "enabled": true
     }
   ]

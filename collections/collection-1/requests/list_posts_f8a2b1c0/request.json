@@ -9,13 +9,11 @@
     "headers": [
       {
         "name": "User-Agent",
-        "value": "{{user_agent}}",
-        "enabled": true
+        "value": "{{user_agent}}"
       },
       {
         "name": "Accept",
-        "value": "application/json",
-        "enabled": true
+        "value": "application/json"
       }
     ],
     "params": null,

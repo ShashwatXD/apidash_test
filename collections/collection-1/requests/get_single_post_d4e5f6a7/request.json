@@ -9,8 +9,7 @@
     "headers": [
       {
         "name": "Accept",
-        "value": "application/json",
-        "enabled": true
+        "value": "application/json"
       }
     ],
     "params": null,
