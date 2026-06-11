@@ -16,8 +16,8 @@
     },
     {
       "key": "timeout_ms",
-      "value": "30000",
-      "type": "variable",
+      "value": "",
+      "type": "secret",
       "enabled": true
     }
   ]

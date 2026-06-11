@@ -29,7 +29,10 @@
       "oauth1": null,
       "oauth2": null
     },
-    "isHeaderEnabledList": [true, true],
+    "isHeaderEnabledList": [
+      true,
+      true
+    ],
     "isParamEnabledList": null,
     "bodyContentType": "json",
     "body": null,

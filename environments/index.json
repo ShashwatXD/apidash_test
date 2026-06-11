@@ -1,6 +1,5 @@
 {
   "environmentIds": [
-    "global",
-    "prod"
+    "global"
   ]
 }

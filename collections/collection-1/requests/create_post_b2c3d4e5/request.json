@@ -24,7 +24,9 @@
       "oauth1": null,
       "oauth2": null
     },
-    "isHeaderEnabledList": [true],
+    "isHeaderEnabledList": [
+      true
+    ],
     "isParamEnabledList": null,
     "bodyContentType": "json",
     "body": "{\n  \"title\": \"API Dash demo post\",\n  \"body\": \"Created from the demo workspace.\",\n  \"userId\": 1\n}",
