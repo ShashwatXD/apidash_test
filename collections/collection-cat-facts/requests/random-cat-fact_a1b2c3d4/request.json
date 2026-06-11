@@ -1,0 +1,40 @@
+{
+  "id": "random-cat-fact_a1b2c3d4",
+  "apiType": "rest",
+  "name": "Random Cat Fact",
+  "description": "Returns a random cat fact from catfact.ninja",
+  "httpRequestModel": {
+    "method": "get",
+    "url": "{{cat_api_url}}/fact",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json"
+      }
+    ],
+    "params": null,
+    "authModel": {
+      "type": "none",
+      "apikey": null,
+      "bearer": null,
+      "basic": null,
+      "jwt": null,
+      "digest": null,
+      "oauth1": null,
+      "oauth2": null
+    },
+    "isHeaderEnabledList": [
+      true
+    ],
+    "isParamEnabledList": null,
+    "bodyContentType": "json",
+    "body": null,
+    "query": null,
+    "formData": null
+  },
+  "responseStatus": -1,
+  "message": "FormatException: %7B%7Bcat_api_url%7D%7D is not a valid link-local address but contains %. Scope id should be used as part of link-local address. (at character 1)\n%7B%7Bcat_api_url%7D%7D\n^\n",
+  "preRequestScript": null,
+  "postRequestScript": null,
+  "aiRequestModel": null
+}
