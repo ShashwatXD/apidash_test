@@ -1,0 +1,13 @@
+# API Dash — local secrets and machine state
+environments/*.local.json
+oauth2_credentials.json
+.apidash/local/
+
+# Large / personal / noisy
+history/
+collections/**/requests/**/response.json
+
+# Autosave / OS
+*.tmp
+.DS_Store
+Thumbs.db
