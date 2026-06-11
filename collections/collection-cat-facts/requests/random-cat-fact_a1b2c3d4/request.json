@@ -5,7 +5,7 @@
   "description": "Returns a random cat fact from catfact.ninja",
   "httpRequestModel": {
     "method": "get",
-    "url": "{{cat_api_url}}/fact",
+    "url": "{{cat_api_url}}/factk",
     "headers": [
       {
         "name": "Accept",

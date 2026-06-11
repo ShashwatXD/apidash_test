@@ -7,7 +7,7 @@
       "name": "Random Cat Fact",
       "apiType": "rest",
       "method": "get",
-      "url": "{{cat_api_url}}/fact"
+      "url": "{{cat_api_url}}/factk"
     },
     {
       "id": "cat_breeds_e5f6g7h8",
