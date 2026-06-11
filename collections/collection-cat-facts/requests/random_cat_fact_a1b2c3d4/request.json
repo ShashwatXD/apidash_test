@@ -9,8 +9,7 @@
     "headers": [
       {
         "name": "Accept",
-        "value": "application/json",
-        "enabled": true
+        "value": "application/json"
       }
     ],
     "params": null,
@@ -24,7 +23,9 @@
       "oauth1": null,
       "oauth2": null
     },
-    "isHeaderEnabledList": [true],
+    "isHeaderEnabledList": [
+      true
+    ],
     "isParamEnabledList": null,
     "bodyContentType": "json",
     "body": null,

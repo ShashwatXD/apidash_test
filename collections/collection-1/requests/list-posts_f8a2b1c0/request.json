@@ -1,12 +1,16 @@
 {
-  "id": "get_single_post_d4e5f6a7",
+  "id": "list-posts_f8a2b1c0",
   "apiType": "rest",
-  "name": "Get Post by ID",
-  "description": "Get a single post — uses {{post_id}} from Production env",
+  "name": "List Posts",
+  "description": "Fetch all posts from JSONPlaceholder",
   "httpRequestModel": {
     "method": "get",
-    "url": "{{base_url}}/posts/{{post_id}}",
+    "url": "{{base_url}}/posts",
     "headers": [
+      {
+        "name": "User-Agent",
+        "value": "{{user_agent}}"
+      },
       {
         "name": "Accept",
         "value": "application/json"
@@ -24,6 +28,7 @@
       "oauth2": null
     },
     "isHeaderEnabledList": [
+      true,
       true
     ],
     "isParamEnabledList": null,

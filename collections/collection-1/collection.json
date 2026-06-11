@@ -3,18 +3,11 @@
   "name": "JSONPlaceholder API",
   "requests": [
     {
-      "id": "list_posts_f8a2b1c0",
+      "id": "list-posts_f8a2b1c0",
       "name": "List Posts",
       "apiType": "rest",
       "method": "get",
       "url": "{{base_url}}/posts"
-    },
-    {
-      "id": "get_single_post_d4e5f6a7",
-      "name": "Get Post by ID",
-      "apiType": "rest",
-      "method": "get",
-      "url": "{{base_url}}/posts/{{post_id}}"
     },
     {
       "id": "create_post_b2c3d4e5",
