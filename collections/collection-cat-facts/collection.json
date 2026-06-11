@@ -1,0 +1,20 @@
+{
+  "id": "collection-cat-facts",
+  "name": "Cat Facts API",
+  "requests": [
+    {
+      "id": "random_cat_fact_a1b2c3d4",
+      "name": "Random Cat Fact",
+      "apiType": "rest",
+      "method": "get",
+      "url": "{{cat_api_url}}/fact"
+    },
+    {
+      "id": "cat_breeds_e5f6g7h8",
+      "name": "Cat Breeds",
+      "apiType": "rest",
+      "method": "get",
+      "url": "{{cat_api_url}}/breeds"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "random_cat_fact_a1b2c3d4",
+  "apiType": "rest",
+  "name": "Random Cat Fact",
+  "description": "Returns a random cat fact from catfact.ninja",
+  "httpRequestModel": {
+    "method": "get",
+    "url": "{{cat_api_url}}/fact",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json",
+        "enabled": true
+      }
+    ],
+    "params": null,
+    "authModel": {
+      "type": "none",
+      "apikey": null,
+      "bearer": null,
+      "basic": null,
+      "jwt": null,
+      "digest": null,
+      "oauth1": null,
+      "oauth2": null
+    },
+    "isHeaderEnabledList": [true],
+    "isParamEnabledList": null,
+    "bodyContentType": "json",
+    "body": null,
+    "query": null,
+    "formData": null
+  },
+  "responseStatus": 200,
+  "message": "OK",
+  "preRequestScript": null,
+  "postRequestScript": null,
+  "aiRequestModel": null
+}

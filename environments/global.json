@@ -1,5 +1,24 @@
 {
   "id": "global",
   "name": "Global Variables",
-  "values": []
+  "values": [
+    {
+      "key": "app_name",
+      "value": "API Dash Demo",
+      "type": "variable",
+      "enabled": true
+    },
+    {
+      "key": "user_agent",
+      "value": "APIDash/1.0 (Demo Workspace)",
+      "type": "variable",
+      "enabled": true
+    },
+    {
+      "key": "timeout_ms",
+      "value": "30000",
+      "type": "variable",
+      "enabled": true
+    }
+  ]
 }

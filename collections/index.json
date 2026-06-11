@@ -2,7 +2,11 @@
   "collections": [
     {
       "id": "collection-1",
-      "name": "Collection 1"
+      "name": "JSONPlaceholder API"
+    },
+    {
+      "id": "collection-cat-facts",
+      "name": "Cat Facts API"
     }
   ]
 }

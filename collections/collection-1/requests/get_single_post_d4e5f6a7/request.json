@@ -1,0 +1,39 @@
+{
+  "id": "get_single_post_d4e5f6a7",
+  "apiType": "rest",
+  "name": "Get Post by ID",
+  "description": "Get a single post — uses {{post_id}} from Production env",
+  "httpRequestModel": {
+    "method": "get",
+    "url": "{{base_url}}/posts/{{post_id}}",
+    "headers": [
+      {
+        "name": "Accept",
+        "value": "application/json",
+        "enabled": true
+      }
+    ],
+    "params": null,
+    "authModel": {
+      "type": "none",
+      "apikey": null,
+      "bearer": null,
+      "basic": null,
+      "jwt": null,
+      "digest": null,
+      "oauth1": null,
+      "oauth2": null
+    },
+    "isHeaderEnabledList": [true],
+    "isParamEnabledList": null,
+    "bodyContentType": "json",
+    "body": null,
+    "query": null,
+    "formData": null
+  },
+  "responseStatus": 200,
+  "message": "OK",
+  "preRequestScript": null,
+  "postRequestScript": null,
+  "aiRequestModel": null
+}
