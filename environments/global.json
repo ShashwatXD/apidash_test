@@ -31,6 +31,12 @@
       "value": "UI",
       "type": "variable",
       "enabled": true
+    },
+    {
+      "key": "timeout_ms2_copy_fromVS",
+      "value": "UI",
+      "type": "variable",
+      "enabled": true
     }
   ]
 }
