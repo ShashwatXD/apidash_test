@@ -19,9 +19,16 @@
       "value": "abcd",
       "type": "variable",
       "enabled": true
-    },{
+    },
+    {
       "key": "timeout_ms2_copy",
       "value": "abcdefgh",
+      "type": "variable",
+      "enabled": true
+    },
+    {
+      "key": "timeout_ms2_copy_fromUI",
+      "value": "UI",
       "type": "variable",
       "enabled": true
     }
