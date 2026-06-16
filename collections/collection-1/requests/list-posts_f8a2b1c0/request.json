@@ -5,7 +5,7 @@
   "description": "Fetch all posts from JSONPlaceholder",
   "httpRequestModel": {
     "method": "get",
-    "url": "{{base_url}}/posts",
+    "url": "{{base_url}}/posts/1",
     "headers": [
       {
         "name": "User-Agent",
@@ -37,8 +37,8 @@
     "query": null,
     "formData": null
   },
-  "responseStatus": 200,
-  "message": "OK",
+  "responseStatus": -1,
+  "message": "FormatException: %7B%7Bbase_url%7D%7D is not a valid link-local address but contains %. Scope id should be used as part of link-local address. (at character 1)\n%7B%7Bbase_url%7D%7D\n^\n",
   "preRequestScript": null,
   "postRequestScript": null,
   "aiRequestModel": null
