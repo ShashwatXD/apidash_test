@@ -5,7 +5,7 @@ oauth2_credentials.json
 
 # Large / personal / noisy
 history/
-collections/**/requests/**/response.json
+
 
 # Autosave / OS
 *.tmp
