@@ -5,7 +5,7 @@
   "description": "Fetch all posts from JSONPlaceholder",
   "httpRequestModel": {
     "method": "get",
-    "url": "{{base_url}}/posts/1",
+    "url": "{{base_url}}/posts/1ss",
     "headers": [
       {
         "name": "User-Agent",
