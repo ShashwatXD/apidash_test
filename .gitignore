@@ -11,3 +11,4 @@ history/
 *.tmp
 .DS_Store
 Thumbs.db
+.git
